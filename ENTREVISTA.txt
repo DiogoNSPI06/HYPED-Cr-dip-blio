@@ -1,0 +1,49 @@
+OBJETIVO:
+TEMPO E FACILIDADE NO ATENDIMENTO(VERSATILIDADE DO APLICATIVO)
+
+TIPOS DE FINANCIAMENTO
+PESSOAL - Valores pré calculados 
+IMÓVEIS 20/30 anos
+CARROS 5 anos
+
+NOSSA PROPOSTA:
+Aplicativo para facilitar o desenvolvimento do atendimento
+
+O QUE:
+No app, haverá 3 botões para seleção de tipo de empréstimo onde cada um será 
+calculado de acordo com o cliente e seu perfil. Assim exibindo o que o cliente poderá
+comprar com seu dinheiro. E se estará em dívidas ou não. Empréstimo inteligente. Exibindo um gráfico. E auto-atendimento.
+Resolver questão de marketing
+
+REQUISITOS:
+Internet
+Computador ou celular
+
+INFORMAÇÕES PARA CALCULAR
+Valor do empréstimo (TIPO DE COMPRA)
+Valor da parcela
+Quantidade de parcelas
+Taxa de juros
+
+OBS: Calculadora do cidadão
+
+OBS: Impressora c/ defeito
+Gerar contrato
+Uso de tabelas pré definidas de taxas de juros
+
+Faixa etária média: 
+60 para cima; 50% empres
+30 a 50; 30% empres
+<30 anos; 20% empres
+
+
+Tendências: 
+Final de ano: pessoal
+começo do ano: automóveis
+imóveis: sempre
+
+Opções de problemas:
+Valor menor: Resolução básica do problema
+Valor completo: Solução de todos os problemas
+
+Crédipúblio
