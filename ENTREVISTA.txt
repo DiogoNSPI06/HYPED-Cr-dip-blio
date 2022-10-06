@@ -47,3 +47,8 @@ Valor menor: Resolução básica do problema
 Valor completo: Solução de todos os problemas
 
 Crédipúblio
+
+Objetivo:
+Com o requisito da contratação de um plano de internet. Fazer um site/app que consiga caclular de maneira mais ágil e eficiente, atraindo mais consumidores e possívelmente removendo custos pela questão de automatização dos pagamentos, recibos e comprovantes.
+Removendo o custo para impressão, e a questão da impressora danificada.
+O site tera uma forma de auto-atendimento e seguirá conforme a tabela requisitada da empresa. Ainda exibirá possíveis produtos para a aquisição por parte do usuário. Para que consiga garantir a maior retenção do usuário. Também será oferido um sistema para campanhas de e-mail, onde o usuário cadastrado, será notificado para lembrar de completar seu empréstimo.
