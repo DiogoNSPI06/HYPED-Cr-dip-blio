@@ -1,6 +1,8 @@
 const fs = require('fs');
 const express = require('express');
 const session = require('express-session');
+const cookieParser = require('cookie-parser');
+const cookieSession = require('cookie-session');
 const expressLayouts = require('express-ejs-layouts');
 const logger = require('morgan');
 
@@ -24,6 +26,12 @@ class App {
     this.app.use(express.static("/home/runner/HYPED-or-Credipublio/public/images/"));
     this.app.use(express.urlencoded({ extended: false }));
     this.app.use(expressLayouts);
+    this.app.use(cookieParser());
+    this.app.use(cookieSession({
+      name: 'session',
+      keys: [config.cookieToken],
+      maxAge: 24 * 60 * 60 * 1000 // 24 hours
+    }))
 
     if(this.config.debug === true) {
       this.app.use(logger('dev'));
