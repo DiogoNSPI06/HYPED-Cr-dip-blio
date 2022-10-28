@@ -1,6 +1,6 @@
 <body class="u-body u-xl-mode" data-lang="en">
-    <link rel="stylesheet" href="/css/CP_Simule_2.css" media="screen">
-    <section class="u-align-center u-clearfix u-grey-90 u-section-1" id="sec-6a8f">
+  <link rel="stylesheet" href="/css/CP_Contracted.css" media="screen">
+    <section class="u-align-center u-clearfix u-grey-90 u-section-1" id="sec-51ac">
       <div class="u-clearfix u-sheet u-sheet-1">
         <img class="u-image u-image-contain u-image-default u-image-1" src="images/5ece2b918ea4490004d66df6.png" alt="" data-image-width="1000" data-image-height="950">
         <h1 class="u-text u-text-default u-text-1">
@@ -13,63 +13,24 @@
         <a href="/calcule" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-2 u-radius-10 u-btn-3">Simule e CONTRATE</a>
       </div>
     </section>
-    <section class="u-align-center u-clearfix u-grey-75 u-section-2" id="sec-30ac">
+    <section class="u-clearfix u-grey-80 u-section-2" id="sec-6f5f">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1">SIMULADOR | Crédito <%= type %></h1>
-        <p class="u-large-text u-text u-text-variant u-text-2"><%= subtitle %></p>
-      </div>
-    </section>
-    <section class="u-clearfix u-grey-80 u-section-3" id="sec-aff5">
-      <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
-        <div class="u-border-5 u-border-custom-color-1 u-container-style u-group u-radius-20 u-shape-round u-group-1">
-          <div class="u-container-layout u-container-layout-1">
-            <h2 class="u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-1">Quantas parcelas?</h2>
-            <div class="u-form u-form-1">
-              <form method="POST" class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" style="padding: 15px" source="email">
-                <div class="u-form-group u-form-name u-label-none">
-                  <label for="name-558c" class="u-label">Name</label>
-                  <input type="text" placeholder="Nº" id="name-558c" name="value" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-10" required="">
+        <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-size-28 u-layout-cell-1">
+                <div class="u-container-layout">
+                  <div class="u-align-left u-custom-color-1 u-radius-20 u-shape u-shape-round u-shape-1"></div>
+                  <img class="u-align-left u-image u-image-round u-radius-20 u-image-1" data-image-width="1024" data-image-height="683" src="images/conheca-as-principais-linhas-de-financiamento-imobiliario.webp">
                 </div>
-                <div class="u-form-group u-form-submit u-label-none">
-                  <button type="submit" value="Simule" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-radius-10 u-text-body-alt-color u-btn-1">
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-32 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <h2 class="u-custom-font u-font-oswald u-text u-text-1">Obrigado por contratar a CrédiPúblio, seu Recibo foi enviado por e-mail</h2>
+                  <p class="u-text u-text-2">Caso prefira, baixe seu recibo aqui!</p>
+                  <a href="" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-radius-10 u-btn-1">BAIXAR</a>
                 </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="u-align-left u-custom-color-1 u-expanded-width-xs u-left-0 u-radius-20 u-shape u-shape-round u-shape-1"></div>
-        <img class="u-align-left u-expanded-width-xs u-image u-image-round u-radius-25 u-image-1" data-image-width="1140" data-image-height="760" src="images/entenda-como-funciona-uma-corretora-de-investiment.jpeg">
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-grey-80 u-section-4" id="sec-7b18">
-      <div class="u-container-style u-custom-color-1 u-expanded-width u-group u-group-1">
-        <div class="u-container-layout u-valign-middle-xs u-container-layout-1">
-          <h2 class="u-align-center u-custom-font u-font-montserrat u-text u-text-default u-text-1">PArcelas recomendadas</h2>
-        </div>
-      </div>
-      <div class="u-list u-list-1">
-        <div class="u-repeater u-repeater-1">
-          <div class="u-align-center u-container-style u-grey-90 u-list-item u-radius-20 u-repeater-item u-shape-round u-list-item-1">
-            <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
-              <h4 class="u-custom-font u-font-montserrat u-hover-feature u-text u-text-2"><%= parcela1 %>&nbsp; Parcelas</h4>
-              <p class="u-hover-feature u-text u-text-3">Pague o valor de R$ <%= value %> em <%= parcela1 %> parcelas de R$ <%= parcelasValue1 %></p>
-              <a href="/parcelas/finish?sugestion=1&type=<%= reqtype %>" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-2 u-hover-feature u-radius-10 u-text-active-white u-btn-1">SELECIONE</a>
-            </div>
-          </div>
-          <div class="u-align-center u-container-style u-grey-90 u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-list-item-2">
-            <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-              <h4 class="u-custom-font u-font-montserrat u-hover-feature u-text u-text-4"><%= parcela2 %> Parcelas</h4>
-              <p class="u-hover-feature u-text u-text-5">Pague o valor de R$ <%= value %> em <%= parcela2 %> parcelas de R$ <%= parcelasValue2 %></p>
-              <a href="/parcelas/finish?sugestion=2&type=<%= reqtype %>" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-2 u-hover-feature u-radius-10 u-text-active-white u-btn-2">SELECIONE<br>
-              </a>
-            </div>
-          </div>
-          <div class="u-align-center u-container-style u-grey-90 u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-list-item-3">
-            <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-4">
-              <h4 class="u-custom-font u-font-montserrat u-hover-feature u-text u-text-6"><%= parcela3 %>&nbsp; Parcelas</h4>
-              <p class="u-hover-feature u-text u-text-7">Pague o valor de R$ <%= value %> em <%= parcela3 %> parcelas de R$ <%= parcelasValue3 %></p>
-              <a href="/parcelas/finish?sugestion=3&type=<%= reqtype %>" class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-custom-color-2 u-hover-feature u-radius-10 u-text-active-white u-btn-3">SELECIONE<br>
-              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -110,5 +71,4 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
           </a>
         </div>
       </div></footer>
-  
 </body>
